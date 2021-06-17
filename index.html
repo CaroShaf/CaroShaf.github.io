@@ -55,7 +55,7 @@
     <!-- Header -->
     <header class="masthead bg-primary text-white text-center">
         <div class="container">
-            <img class="img-fluid mb-5 d-block mx-auto rounded-circle" src="assets/img/jane.jpg" alt="" />
+            <img class="img-fluid mb-5 d-block mx-auto rounded-circle" src="assets/img/jane.jpg" alt="bootstrap styling" />
             <h1 class="mb-0">Carolyn Shaffer</h1>
             <hr />
             <h2 class="mb-0">
@@ -120,7 +120,7 @@
                                 <i class="fas fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img class="img-fluid" src="assets/img/portfolio/bellybutton.png" alt="" />
+                        <img class="img-fluid" src="assets/img/portfolio/bellybutton.png" alt="belly button diversity dashboard graphic" />
                     </a>
                 </div>
                 <div class="col-md-6 col-lg-4">
@@ -131,18 +131,18 @@
                                 <i class="fas fa-search-plus fa-2x"></i>
                             </div>
                         </div>
-                        <img class="img-fluid" src="assets/img/portfolio/dmstory.png" alt="" />
+                        <img class="img-fluid" src="assets/img/portfolio/dmstory.png" alt="Des Moines bike sharing Tableau story" />
                     </a>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <a class="portfolio-item d-block mx-auto" data-toggle="modal" data-target="#portfolio-modal-6">
                         <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                             <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                                <p>Project #6</p>
+                                <p>World Weather Analysis</p>
                                 <i class="fas fa-search-plus fa-2x"></i>
                             </div>
                         </div>
-                        <img class="img-fluid" src="assets/img/portfolio/project6.jpg" alt="" />
+                        <img class="img-fluid" src="assets/img/portfolio/weather_map.png" alt="example of weather map in travel app" />
                     </a>
                 </div>
             </div>
@@ -371,7 +371,7 @@
                             Belly Button Biodiversity Dashboard
                         </h2>
                         <hr class="star-dark mb-5" />
-                        <img class="img-fluid mb-5" src="assets/img/portfolio/bellybutton.png" alt="" />
+                        <img class="img-fluid mb-5" src="assets/img/portfolio/bellybutton.png" alt="belly button bacteria dashboard graphic" />
                         <p class="mb-5">
                             This project is designed to use a web browser to serve an interactive dashboard through which to view volunteer's belly button bacteria for the purpose of culturing it for synthetic food production. The dashboard is designed to display the database of types of bacteria present in each volunteer, by their ID number, as well as their frequency of washing.
                             <h2 class="text-secondary text-uppercase mb-0">Resources</h2>
@@ -402,7 +402,7 @@
                             Bike Sharing Analysis
                         </h2>
                         <hr class="star-dark mb-5" />
-                        <img class="img-fluid mb-5" src="img/portfolio/dmstory.png" alt="" />
+                        <img class="img-fluid mb-5" src="img/portfolio/dmstory.png" alt="Des Moines bike sharing map graphic" />
                         <p class="mb-5">
                             Data analysis was conducted on the CitiBikes bike sharing program in Manhattan to see what insights could be gleaned and applied to a proposed bike sharing program in Des Moines, IA. Several factors were studied. They included demographics of customers, time of day of highest use of bikes and weekday usage. Subscriber vs customer (tourist) usage was also considered. A presentation was created for potential investors.
 
@@ -431,23 +431,19 @@
                 <div class="row">
                     <div class="col-lg-8 mx-auto">
                         <h2 class="text-secondary text-uppercase mb-0">
-                            Project Name
+                            World Weather Analysis Travel App
                         </h2>
                         <hr class="star-dark mb-5" />
-                        <img class="img-fluid mb-5" src="img/portfolio/project6.jpg" alt="" />
+                        <img class="img-fluid mb-5" src="img/portfolio/weather_map.png" alt="weather map example" />
                         <p class="mb-5">
-                            Lorem ipsum dolor sit amet, consectetur
-                            adipisicing elit. Mollitia neque assumenda ipsam
-                            nihil, molestias magnam, recusandae quos quis
-                            inventore quisquam velit asperiores, vitae?
-                            Reprehenderit soluta, eos quod consequuntur
-                            itaque. Nam.
-                        </p>
-                        <a class="btn btn-primary portfolio-modal-dismiss" href="#">
-                            Live Demo
-                        </a>
+                            This project was designed to analyze weather data for the MyTripPlan app, and also to help the middle school STEM class project, with visualizations of statistical weather data relationships and for customer trip planning purposes. Not only can customers see locations with the range of temperatures of their preference, with nearby hotels, but a suggested 4-city driving tour/travel itinerary is provided, based on their preferences.
 
-                        <a class="btn btn-primary portfolio-modal-dismiss" href="#">
+                            First, a database of cities was created using random numbers to generate latitude and longitude. The Citipy dependency features a function which provides the nearest city to latitude and longitude coordinates, which this database is checked against. Weather data for each pair of coordinates for each city is obtained from an API call to openweathermap.org. A customer can enter their max and min preferred temperatures and cities which match their request are matched up with the cities in our database.
+                            <h2 class="text-secondary text-uppercase mb-0">Resources</h2>
+                            Python 3.7.9, Pandas library, Jupyter Notebook, Conda Python environment, Excel 365 (to view CSV files), CitiPy, Numpy, Matplotlib, openweathermap API, Google maps and places (gmaps), and Directions APIs, Requests library
+                        
+                        </p>
+                        <a class="btn btn-primary portfolio-modal-dismiss" href="https://github.com/CaroShaf/World_Weather_Analysis">
                             View Code</a>
                     </div>
                 </div>
